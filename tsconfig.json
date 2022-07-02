@@ -9,10 +9,6 @@
     "jsxImportSource": "solid-js",
     "types": ["vite/client"],
     "isolatedModules": true,
-    "emitDeclarationOnly": true,
-    "outDir": "dist",
-    "sourceMap": true,
-    "declarationDir": "types",
-    "declaration": true
+    "sourceMap": true
   }
 }

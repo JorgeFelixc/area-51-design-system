@@ -2,7 +2,7 @@ import babel from "@rollup/plugin-babel";
 import nodeResolve from "@rollup/plugin-node-resolve";
 
 export default {
-  input: "components/index.ts",
+  input: "src/index.ts",
   output: [
     {
       file: "dist/esm/index.js",
