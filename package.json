@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "rollup": "rollup -c",
+    "rollup": "tsc --outDir dist/lib --declarationDir dist/types --declaration true && rollup -c",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
