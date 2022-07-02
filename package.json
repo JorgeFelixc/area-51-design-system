@@ -1,6 +1,6 @@
 {
   "name": "area-51-design-system",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "scripts": {
     "dev": "vite",
@@ -17,5 +17,10 @@
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "solid-js": "^1.4.2"
+  },
+  "workspaces": {
+    "packages": [
+      "components/*"
+    ]
   }
 }
