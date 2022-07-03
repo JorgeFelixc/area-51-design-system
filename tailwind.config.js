@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  purge: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./node_modules/area-51-design-system/src/**/*.{js,jsx,ts,tsx}",
+  ],
   plugins: [],
   corePlugins: {
     preflight: false,
