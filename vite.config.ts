@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
+import postcss from "./postcss.config.js";
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
@@ -21,5 +22,8 @@ export default defineConfig({
         },
       },
     },
+  },
+  css: {
+    postcss,
   },
 });
