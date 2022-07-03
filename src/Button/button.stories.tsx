@@ -1,15 +1,11 @@
-import {Meta} from "@storybook/html"
-import Button from "."
-
+import { Meta } from "@storybook/html";
+import Button from ".";
 
 export default {
   title: "Button",
-} as Meta
+} as Meta;
 
+const Template = (args: any) => <Button {...args} />;
 
-const Template =
-	((args: any) => <Button {...args} />)
-
-
-export const PrimaryButton = Template.bind({})
-PrimaryButton.args = {children:"primary"}
+export const PrimaryButton = Template.bind({});
+PrimaryButton.args = { children: "primary" };
