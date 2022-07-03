@@ -2,9 +2,10 @@ import { defineConfig } from "vite";
 import solidPlugin from "vite-plugin-solid";
 import postcss from "./postcss.config.js";
 import dts from "vite-plugin-dts";
+import eslint from "vite-plugin-eslint";
 
 export default defineConfig({
-  plugins: [solidPlugin(), dts({ insertTypesEntry: true })],
+  plugins: [solidPlugin(), dts({ insertTypesEntry: true }), eslint()],
   build: {
     target: "esnext",
     polyfillDynamicImport: false,
