@@ -7,7 +7,7 @@ export default defineConfig({
     target: "esnext",
     polyfillDynamicImport: false,
     lib: {
-      entry: "src/index.ts",
+      entry: "src/index.tsx",
       name: "area-51",
       fileName: (format) => `area-51.${format}.tsx`,
     },
