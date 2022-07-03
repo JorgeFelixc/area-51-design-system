@@ -1,6 +1,6 @@
 {
   "name": "area-51-design-system",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A Design system for area-51 frontend",
   "scripts": {
     "dev": "vite",
