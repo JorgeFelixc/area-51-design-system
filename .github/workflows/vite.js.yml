@@ -21,5 +21,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npx'
+    - run: npm install
     - run: npx run build --if-present
 
