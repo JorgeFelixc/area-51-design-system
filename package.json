@@ -8,7 +8,7 @@
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "eslint .eslintrc.js",
+    "lint": "eslint .eslintrc.json",
     "format": "prettier --write ."
   },
   "license": "MIT",
