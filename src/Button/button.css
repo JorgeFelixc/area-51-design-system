@@ -1,0 +1,25 @@
+.a51-btn-primary{ 
+  background-color: var(--primary-bgColor);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-bgColor);
+  transition: 0.2s all;
+}
+
+.a51-btn-primary:hover{
+  filter:brightness(1.1); 
+}
+.a51-btn-outline:active,
+.a51-btn-primary:active{ 
+  transform: scale(0.98);
+}
+
+.a51-btn-outline{
+  transition: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 1px solid var(--primary-bgColor);
+  color: var(--primary-bgColor);
+  background-color: transparent;
+}
+
+.a51-btn-outline:hover{ 
+  background-color: rgba(0, 0, 0, 0.02);
+}
