@@ -1,4 +1,4 @@
-import { ParentComponent, JSX, createMemo } from "solid-js";
+import { JSX, createMemo } from "solid-js";
 import "./button.css";
 
 /* Button Variant style */
@@ -31,8 +31,8 @@ export interface A51ButtonProps
   size?: ButtonSizeType;
 }
 
+const tailwindStyles = "area51-rounded area51-cursor-pointer";
 const Button = (props: A51ButtonProps) => {
-  const tailwindStyles = "area51-rounded area51-cursor-pointer";
   const buttonClasses = createMemo(() => {
     const size = ButtonSizes[props.size] || ButtonSizes.md;
     const variant = ButtonVariants[props.variant] || ButtonVariants.primary;
